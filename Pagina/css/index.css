@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+
+.bannersup{
+    width: 100%;
+    height: 40px;
+    background-image: url("../img/bannersup.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ctncont{
+    width: 100%;
+    height: 94%;
+    position: absolute;
+}
+
+.logo{
+
+    position: relative;
+    display: inline;
+    top: 30px;
+    left: 30px;
+}
+.info{
+width: 60%;
+float: right;
+margin-top: 10px;
+text-align: center;
+
+}
+
+.info h1{
+  font-family: 'BAKUSHO', cursive;
+  font-size: 100px;
+}
+
+.info h3{
+  position: relative;
+  font-family: 'BAKUSHO', cursive;
+  font-size: 25px;
+  bottom: 30px;
+}
+
+.menunav{
+    width: 100%;
+    background-image: url(../img/bannernav.png);
+    background-size: cover;
+    text-align: center;
+    margin-top: 10%;
+    padding: 15px;
+    font-family: 'BAKUSHO', cursive;
+}
+
+.menunav nav ul li{
+    display: inline;
+
+    margin:10px 60px;
+}
+
+.menunav nav ul li a{
+   text-decoration: none;
+   width: 100%;
+   font-size: 50px;
+   background: #D2C599;
+   color: green;
+   padding: 5px 20px;
+
+}
+
+.menunav nav ul li a:hover{
+  color: #FC4305;
+}
+
+.saludo{
+    width: 50%;
+    top: 80%;
+    font-family: 'Noteworthy', normal;
+    font-size: 35px;
+    position: absolute;
+    float: left;
+    margin: 0px 40px;
+}
+.bannerinf{
+    width: 100%;
+    height: 40px;
+    background-image: url("../img/bannerinf.png");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.bannerinf img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+
+}
+
+
+/*----------FUENTES-------------*/
+@font-face {
+   font-family: BAKUSHO;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/BAKUSHO.otf);
+}
+
+@font-face {
+   font-family: GOTHIC;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/GOTHIC.TTF);
+}
+
+@font-face {
+   font-family: Noteworthy;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/Noteworthy.ttf);
+}
+/*-----------------------------*/

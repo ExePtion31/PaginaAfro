@@ -1,0 +1,337 @@
+body{
+  width: 100%;
+  background-color: #d2c599;
+  overflow-x: hidden;
+}
+
+/*-----------Contenedor Principal-----------*/
+.Contenedor_Principal{
+  width: 100%;
+  height: 400px;
+}
+
+/*-----------------------------------------*/
+
+
+/*----------------Banner-----------------*/
+.banner{
+  width: 50%;
+  height:300px;
+  background-image: url(../img/Banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*---------------------------------------*/
+
+
+/*----------------MENU-------------------*/
+.barra_menu{
+  margin-top: .3%;
+  text-align: center;
+  width: 96%;
+  height: 16%;
+  background-image: url(../img/fondo1.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'BAKUSHO', cursive;
+  font-size: 280%;
+
+}
+
+.afra_div{
+ text-decoration: none;
+ background-color: #d2c599;
+ position: relative;
+ display: inline-block;
+ right: 20%;
+ top: 15%;
+ width: 12%;
+}
+
+.rope_div{
+ position: relative;
+ right: 9%;
+ top: 15%;
+ background-color: #d2c599;
+ display: inline-block;
+ width: 15%;
+}
+
+
+.getdown_div{
+ display: inline-block;
+ background-color: #d2c599;
+ position: relative;
+ top: 15%;
+ width: 12%;
+ left: 7%;
+}
+
+.turban_div{
+ display: inline-block;
+ background-color: #d2c599;
+ position: relative;
+ left: 20%;
+ top: 15%;
+ width: 12%;
+}
+
+a{
+  text-decoration: none;
+  color: #008d42;
+}
+
+
+a:hover{
+  color: #FC4305;
+}
+
+/*---------------------------------------------*/
+
+/*----------CONTENEDOR SQ----------------*/
+.Contenedor_SQ{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  height: 45%;
+  background-color: #66230F;
+}
+
+.img_lupa{
+  position: relative;
+  top: 10%;
+  left: 3%;
+  width: 6%;
+  height: 40%;
+  background-image: url(../img/Lupa.PNG);
+  background-size: cover;
+}
+
+.lb1{
+  position: relative;
+  color: #fff;
+  left: 10%;
+  bottom: 50px;
+  font-family: 'Noteworthy', normal;
+  font-weight: bold;
+  font-size: 220%;
+}
+
+.lb2{
+  position: relative;
+  color: #fff;
+  left: 20%;
+  bottom: 50px;
+  font-family: 'Noteworthy', normal;
+  font-weight: bold;
+  font-size: 230%;
+}
+.lb3{
+  position: relative;
+  color: #fff;
+  left: 35.5%;
+  bottom: 50px;
+  font-family: 'Noteworthy', normal;
+  font-weight: bold;
+  font-size: 230%;
+}
+/*----------------------------------------*/
+
+/*AUDIO*/
+.Audio_1{
+  position: relative;
+  bottom: 300px;
+  left: 40px;
+}
+/*-----*/
+
+/*---------MAPA----------------*/
+.div_mapa{
+  position: relative;
+  top: 230px;
+  right: 25%;
+
+}
+
+/*-----------------------------*/
+
+/*----------CONTENEDOR INFORMACION----------*/
+.Contenedor_informacion{
+  position: relative;
+  margin-top: auto;
+  top: 60%;
+  width: 98%;
+  height:340%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info_1{
+  position: relative;
+  top: 2%;
+  width: 98%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Berlin Sans', normal;
+  font-size: 170%;
+}
+
+.foto1{
+  position: relative;
+  left: 65%;
+  bottom: 280px;
+  width: 30%;
+  height: 90%;
+}
+
+
+
+.info_2{
+  position: relative;
+  top: 5%;
+  width: 98%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Berlin Sans', normal;
+  font-size: 170%;
+}
+
+.foto2{
+  position: relative;
+  left: 1%;
+  top: 3%;
+  width: 30%;
+  height: 90%;
+}
+
+.parrafo2{
+  position: relative;
+  left: 40%;
+  bottom: 99%;
+}
+
+
+.info_3{
+  position: relative;
+  top: 5%;
+  width: 98%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Berlin Sans', normal;
+  font-size: 170%;
+}
+
+.foto3{
+  position: relative;
+  left: 70%;
+  bottom: 300px;
+  width: 20%;
+  height: 99%;
+}
+
+.info_4{
+  position: relative;
+  top: 7%;
+  width: 98%;
+  height: 17%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Berlin Sans', normal;
+}
+
+.foto4{
+  display: inline-block;
+  position: relative;
+  left: 1%;
+  top: 3%;
+  width: 20%;
+  height: 70%;
+}
+
+
+.Parrafos4{
+ position: relative;
+ width: 70%;
+ height: 98%;
+ left: 29%;
+ bottom: 86%;
+}
+
+.parrafo4{
+  position: relative;
+  left: 20%;
+  font-size: 180%;
+}
+
+.parrafo5{
+  position: relative;
+  font-size: 150%;
+  left: 67%;
+  bottom: 12%;
+}
+
+.parrafo6{
+  position: relative;
+  font-size: 150%;
+  left: 25%;
+  bottom: 21%;
+}
+
+.parrafo7{
+  position: relative;
+  font-size: 150%;
+  left: 33%;
+  bottom: 32%;
+}
+/*-----------------------------------------*/
+
+.bannerfinal{
+  width: 100%;
+  height: 40px;
+  background-image: url("../img/bannerinf.png");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 18%;
+  bottom: 0;
+}
+
+/*----------FUENTES-------------*/
+@font-face {
+   font-family: BAKUSHO;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/BAKUSHO.otf);
+}
+
+@font-face {
+   font-family: GOTHIC;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/GOTHIC.TTF);
+}
+
+@font-face {
+   font-family: Noteworthy;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/Noteworthy.ttf);
+}
+
+@font-face {
+   font-family: Berlin Sans;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/BerlinSans.ttf);
+}
+/*-----------------------------*/

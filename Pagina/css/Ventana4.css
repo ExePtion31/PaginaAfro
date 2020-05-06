@@ -1,0 +1,364 @@
+body{
+  width: 100%;
+  background-color: #d2c599;
+  overflow-x: hidden;
+}
+
+/*-----------Contenedor Principal-----------*/
+.Contenedor_Principal{
+  width: 100%;
+  height: 800px;
+}
+
+/*-----------------------------------------*/
+
+
+/*----------------Banner-----------------*/
+.banner{
+  width: 50%;
+  height:300px;
+  background-image: url(../img/Banner.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*---------------------------------------*/
+
+
+/*----------------MENU-------------------*/
+.barra_menu{
+  box-sizing: border-box;
+  margin-top: .3%;
+  text-align: center;
+  width: 96%;
+  height: 8%;
+  background-image: url(../img/fondo2.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'BAKUSHO', cursive;
+  font-size: 240%;
+
+}
+
+.afra_div{
+ text-decoration: none;
+ background-color: #d2c599;
+ position: relative;
+ display: inline-block;
+ right: 20%;
+ top: 20%;
+ width: 12%;
+}
+
+.rope_div{
+ position: relative;
+ right: 9%;
+ top: 20%;
+ background-color: #d2c599;
+ display: inline-block;
+ width: 15%;
+}
+
+
+.getdown_div{
+ display: inline-block;
+ background-color: #d2c599;
+ position: relative;
+ top: 20%;
+ width: 12%;
+ left: 7%;
+}
+
+.turban_div{
+ display: inline-block;
+ background-color: #d2c599;
+ position: relative;
+ left: 20%;
+ top: 20%;
+ width: 12%;
+}
+
+a{
+  text-decoration: none;
+  color: #F91611;
+}
+
+
+a:hover{
+  color: #81C83A;
+}
+
+/*---------------------------------------------*/
+
+
+/*----------CONTENEDOR SQ----------------*/
+.Contenedor_SQ{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  height: 22%;
+  background-color: #562E0A;
+}
+
+.img_lupa{
+  position: relative;
+  top: 10%;
+  left: 3%;
+  width: 6%;
+  height: 40%;
+  background-image: url(../img/Lupa2.PNG);
+  background-size: cover;
+}
+
+.lb1{
+  position: relative;
+  color: #fff;
+  left: 10%;
+  bottom: 50px;
+  font-family: 'Noteworthy', normal;
+  font-size: 270%;
+}
+
+.lb2{
+  position: relative;
+  color: #fff;
+  left: 15%;
+  bottom: 50px;
+  font-family: 'Noteworthy', normal;
+  font-size: 200%;
+}
+.lb3{
+  position: relative;
+  color: #fff;
+  left: 30.5%;
+  bottom: 50px;
+  font-family: 'Noteworthy', normal;
+  font-size: 200%;
+}
+/*----------------------------------------*/
+
+/*----------------AUDIO--------------------*/
+.Audio_1{
+  display: block;
+  position: relative;
+  left: 3%;
+  top: 10px;
+}
+/*------------------------------------------*/
+
+
+/*-----------------VIDEO 1------------------*/
+.video1{
+  position:relative;
+  left: 30%;
+  top: 20px;
+  border: 1px #000 solid;
+}
+/*-------------------------------------------*/
+
+
+/*------------------INFO 1-------------------*/
+.info1{
+  position: relative;
+  top: 20px;
+  width: 98%;
+  height: 25%;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Berlin Sans', normal;
+  font-weight: bold;
+  font-size: 165%;
+}
+
+.parrafo1{
+ position: relative;
+ left: 45%;
+}
+
+.parrafo2{
+  position: relative;
+  left: 2%;
+  bottom: 30%;
+}
+/*-------------------------------------------*/
+
+/*-----------------VIDEO 2------------------*/
+.video2{
+  position:relative;
+  left: 30%;
+  top: 60px;
+  border: 1px #000 solid;
+}
+/*-------------------------------------------*/
+
+
+/*------------------INFO 2-------------------*/
+.info2{
+  position: relative;
+  top: 40px;
+  width: 98%;
+  height: 25%;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Berlin Sans', normal;
+  font-weight: bold;
+  font-size: 165%;
+}
+
+.parrafo3{
+ position: relative;
+ left: 45%;
+}
+
+.parrafo4{
+  position: relative;
+  left: 2%;
+  bottom: 30%;
+}
+/*-------------------------------------------*/
+
+/*-----------------VIDEO 3------------------*/
+.video3{
+  position:relative;
+  left: 30%;
+  top: 80px;
+  border: 1px #000 solid;
+}
+/*-------------------------------------------*/
+
+
+/*------------------INFO 3-------------------*/
+.info3{
+  position: relative;
+  top: 60px;
+  width: 98%;
+  height: 25%;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: 'Berlin Sans', normal;
+  font-weight: bold;
+  font-size: 165%;
+}
+
+.parrafo5{
+ position: relative;
+ left: 45%;
+}
+
+.parrafo6{
+  position: relative;
+  left: 2%;
+  bottom: 30%;
+}
+/*-------------------------------------------*/
+
+/*CONTENEDOR ENCUENTRANOS*/
+.Div_encuentranosPrinc{
+  position: relative;
+  top: 10%;
+  width: 99%;
+  height: 20%;
+
+}
+
+/*---------------------*/
+
+/*Encuentranos Div*/
+.Div_encuentranos{
+  display: inline-block;
+  position: relative;
+  width: 45%;
+  height: 50%;
+  text-align: center;
+  top: 10%;
+  left: 1%;
+  background-color: #66230F;
+}
+
+.Div_encuentranos p{
+  position: relative;
+  font-family: 'Noteworthy', normal;
+  font-size: 220%;
+  color: #fff;
+  bottom: 30%;
+  right: 15%;
+}
+/*-------------------*/
+
+
+/*REDES*/
+
+.div_redes{
+  display:inline-block;
+  position: relative;
+  top: 10%;
+  left: 12%;
+  width: 40%;
+  height: 50%;
+}
+
+.icono_insta{
+  position: relative;
+  width: 12%;
+  height: 90%;
+}
+
+.icono_yt{
+  position: relative;
+  width: 12%;
+  height: 100%;
+  left: 10%;
+}
+
+/*------*/
+
+/*----------BANNER FINAL--------------*/
+.bannerfinal{
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+  height: 50px;
+  background-image: url("../img/fondo2.PNG");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 5%;
+  bottom: 0;
+}
+/*------------------------------------*/
+
+/*----------FUENTES-------------*/
+@font-face {
+   font-family: BAKUSHO;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/BAKUSHO.otf);
+}
+
+@font-face {
+   font-family: GOTHIC;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/GOTHIC.TTF);
+}
+
+@font-face {
+   font-family: Noteworthy;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/Noteworthy.ttf);
+}
+
+@font-face {
+   font-family: Berlin Sans;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/BerlinSans.ttf);
+}
+/*-----------------------------*/

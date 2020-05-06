@@ -1,0 +1,337 @@
+body{
+  width: 100%;
+  background-color: #d2c599;
+  overflow-x: hidden;
+}
+
+/*-----------Contenedor Principal-----------*/
+.Contenedor_Principal{
+  width: 100%;
+  height: 400px;
+}
+
+/*-----------------------------------------*/
+
+
+/*----------------Banner-----------------*/
+.banner{
+  width: 50%;
+  height:300px;
+  background-image: url(../img/Banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*---------------------------------------*/
+
+
+/*----------------MENU-------------------*/
+.barra_menu{
+  margin-top: .3%;
+  text-align: center;
+  width: 96%;
+  height: 16%;
+  background-image: url(../img/fondo1.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'BAKUSHO', cursive;
+  font-size: 280%;
+
+}
+
+.afra_div{
+ text-decoration: none;
+ background-color: #d2c599;
+ position: relative;
+ display: inline-block;
+ right: 20%;
+ top: 15%;
+ width: 12%;
+}
+
+.rope_div{
+ position: relative;
+ right: 9%;
+ top: 15%;
+ background-color: #d2c599;
+ display: inline-block;
+ width: 15%;
+}
+
+
+.getdown_div{
+ display: inline-block;
+ background-color: #d2c599;
+ position: relative;
+ top: 15%;
+ width: 12%;
+ left: 7%;
+}
+
+.turban_div{
+ display: inline-block;
+ background-color: #d2c599;
+ position: relative;
+ left: 20%;
+ top: 15%;
+ width: 12%;
+}
+
+a{
+  text-decoration: none;
+  color: #008d42;
+}
+
+
+a:hover{
+  color: #FC4305;
+}
+
+/*---------------------------------------------*/
+
+
+/*----------CONTENEDOR SQ----------------*/
+.Contenedor_SQ{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  height: 50%;
+  background-color: #66230F;
+}
+
+.img_lupa{
+  position: relative;
+  top: 10%;
+  left: 3%;
+  width: 6%;
+  height: 40%;
+  background-image: url(../img/Lupa.PNG);
+  background-size: cover;
+}
+
+.lb1{
+  position: relative;
+  color: #fff;
+  left: 10%;
+  bottom: 60px;
+  font-family: 'Noteworthy', normal;
+  font-size: 220%;
+}
+
+.lb2{
+  position: relative;
+  color: #fff;
+  left: 20%;
+  bottom: 40px;
+  font-family: 'Noteworthy', normal;
+  font-size: 230%;
+}
+.lb3{
+  position: relative;
+  color: #fff;
+  left: 35.5%;
+  bottom: 40px;
+  font-family: 'Noteworthy', normal;
+  font-size: 230%;
+}
+/*----------------------------------------*/
+
+
+
+
+/*----------------INFO 1 ------------------*/
+.info_1{
+  position: relative;
+  width: 98%;
+  height: 20%;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: auto;
+  font-family: 'Berlin Sans', normal;
+  font-size: 220%;
+  left: 10%;
+  top: 10%;
+}
+
+/*----------------------------------------*/
+
+
+/*----------------IMG ASHANTI------------------*/
+.img_ashanti{
+ position: relative;
+ width: 15%;
+ height: 80%;
+ top: 60%;
+ left: 4.5%;
+ background-image: url(../img/ashanti.png);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+
+/*-----------------------------------------*/
+
+
+/*----------------INFO 2 ------------------*/
+.info_2{
+  position: relative;
+  width: 98%;
+  height: 20%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Berlin Sans', normal;
+  font-size: 220%;
+  top: 35%;
+  left: 19%;
+}
+
+/*----------------------------------------*/
+
+
+/*---------------AUDIO 1-----------------*/
+.audio_1{
+  position: relative;
+  top: 10px;
+  left: 5%;
+}
+
+/*----------------------------------------*/
+
+
+/*---------------IMG 2-----------------*/
+.img_2{
+  width: 40%;
+  height: 85%;
+  position: relative;
+  bottom: 45px;
+  left: 50%;
+}
+
+/*----------------------------------------*/
+
+
+/*CONTENEDOR ENCUENTRANOS*/
+.Div_encuentranosPrinc{
+  position: relative;
+  width: 99%;
+  height: 20%;
+  bottom: 7%;
+}
+
+/*---------------------*/
+
+/*Encuentranos Div*/
+.Div_encuentranos{
+  display: inline-block;
+  position: relative;
+  width: 45%;
+  height: 80%;
+  text-align: center;
+  top: 10%;
+  left: 1%;
+  background-color: #66230F;
+}
+
+.Div_encuentranos p{
+  position: relative;
+  font-family: 'GOTHIC', normal;
+  font-size: 220%;
+  color: #fff;
+  bottom: 40%;
+  right: 15%;
+}
+/*-------------------*/
+
+
+/*REDES*/
+
+.div_redes{
+  display:inline-block;
+  position: relative;
+  top: 10%;
+  left: 12%;
+  width: 40%;
+  height: 80%;
+}
+
+.icono_gmail{
+  position: relative;
+  width: 12%;
+  height: 100%;
+  left: 10%;
+}
+
+.icono_insta{
+  position: relative;
+  width: 12%;
+  height: 95%;
+  left: 20%;
+}
+
+.icono_sc{
+  position: relative;
+  width: 12%;
+  height: 100%;
+  left: 30%;
+}
+
+.icono_yt{
+  position: relative;
+  width: 12%;
+  height: 100%;
+  left: 40%;
+}
+
+/*------*/
+
+
+/*--------DIV PIEDEPAG---------*/
+.piedepag{
+  position: relative;
+  bottom: 2%;
+  right: .5%;
+  width: 99%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/fondo1.PNG);
+  background-size: cover;
+}
+
+
+/*----------FUENTES-------------*/
+@font-face {
+   font-family: BAKUSHO;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/BAKUSHO.otf);
+}
+
+@font-face {
+   font-family: GOTHIC;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/GOTHIC.TTF);
+}
+
+@font-face {
+   font-family: Noteworthy;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/Noteworthy.ttf);
+}
+
+@font-face {
+   font-family: Berlin Sans;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/BerlinSans.ttf);
+}
+/*-----------------------------*/
